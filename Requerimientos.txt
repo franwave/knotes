@@ -1,0 +1,10 @@
+Librerías y módulos requeridos:
+
+Python
+- os
+- math
+- random
+
+Tkinter   
+- ttk (módulo)
+- messagebox (módulo)
