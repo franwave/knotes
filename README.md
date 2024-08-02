@@ -27,42 +27,42 @@ Below is a summary of the code structure:
 #Main Functions
 
 #Main Menu:
-open_task_manager(): Opens the task management window.
-open_calculator(): Opens the calculator window.
-open_games_menu(center_frame): Opens the games submenu.
-back_to_main_menu(center_frame): Returns to the main menu.
-exit_app(): Closes the application.
+   open_task_manager(): Opens the task management window.
+   open_calculator(): Opens the calculator window.
+   open_games_menu(center_frame): Opens the games submenu.
+   back_to_main_menu(center_frame): Returns to the main menu.
+   exit_app(): Closes the application.
 
 #Task Management:
-add_task(task_entry, task_listbox): Adds a new task to the list.
-delete_task(task_listbox): Deletes the selected task from the list.
-load_tasks(task_listbox): Loads saved tasks when the application starts.
-save_tasks(task_listbox): Saves tasks to a text file.
+   add_task(task_entry, task_listbox): Adds a new task to the list.
+   delete_task(task_listbox): Deletes the selected task from the list.
+   load_tasks(task_listbox): Loads saved tasks when the application starts.
+   save_tasks(task_listbox): Saves tasks to a text file.
 
 #Calculator:
-add_to_expression(symbol): Adds a symbol to the expression.
-add_function(func): Adds a mathematical function to the expression.
-evaluate_expression(): Evaluates the mathematical expression.
-clear_expression(): Clears the current expression.
+   add_to_expression(symbol): Adds a symbol to the expression.
+   add_function(func): Adds a mathematical function to the expression.
+   evaluate_expression(): Evaluates the mathematical expression.
+   clear_expression(): Clears the current expression.
 Games:
 
 #Snake:
-open_snake_game(): Opens the Snake game.
-move_snake(): Moves the snake and checks for collisions.
-draw_snake(): Draws the snake and the food.
-change_direction(new_direction): Changes the snake's direction.
-game_over(): Handles the game over scenario.
-key_pressed(event): Detects key presses to move the snake.
+   open_snake_game(): Opens the Snake game.
+   move_snake(): Moves the snake and checks for collisions.
+   draw_snake(): Draws the snake and the food.
+   change_direction(new_direction): Changes the snake's direction.
+   game_over(): Handles the game over scenario.
+   key_pressed(event): Detects key presses to move the snake.
 
 
 #Pong:
-open_pong_game(): Opens the Pong game.
-move_ball(): Moves the ball and checks for collisions.
-draw_pong(): Draws the ball and paddles.
-move_paddle1(event): Moves the player 1 paddle.
-move_paddle2(): Moves the player 2 paddle (AI).
-update_scores(): Updates the score display.
-reset_ball(): Resets the ball position.
+   open_pong_game(): Opens the Pong game.
+   move_ball(): Moves the ball and checks for collisions.
+   draw_pong(): Draws the ball and paddles.
+   move_paddle1(event): Moves the player 1 paddle.
+   move_paddle2(): Moves the player 2 paddle (AI).
+   update_scores(): Updates the score display.
+   reset_ball(): Resets the ball position.
 
 #Main Window Configuration
 The main window root is created with a frame center_frame to center the buttons.
